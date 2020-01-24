@@ -1,0 +1,58 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <style>
+            /* Para alterar a cor da tag, mas não é o usual
+                p{
+                    color: blue;
+                }
+            */
+
+            .azul{
+                color:blue
+            }
+            .amarelo{
+                color:yellow
+            }
+            .grande{
+                font-size: 30px;
+            }
+            .pequeno{
+                font-size: 14px;
+            }
+            
+            .div-principal{
+                width: 400px;
+                height: 200px;
+                background-color: #144d0d;
+                /* teste de posicionamento
+                position: absolute;
+                z-index: 1;
+                right: 0;                
+                bottom: 50px;
+                */
+                position: fixed;                
+            }
+            
+            .div-secundaria{
+                width: 200px;
+                height: 1500px;
+                background-color: teal;
+                /* teste de posicionamento
+                position: absolute;
+                z-index: 0;
+                */
+                position: relative;
+                top: 50px;                
+            }
+        </style>
+        <p class="azul grande">Exemplo</p>
+        <p class="amarelo pequeno">Exemplo</p>
+        <div class="div-principal">
+
+        </div>
+        <div class="div-secundaria"></div>
+        </body>
+</html>

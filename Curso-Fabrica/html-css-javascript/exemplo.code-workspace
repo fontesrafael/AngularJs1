@@ -1,0 +1,37 @@
+{
+    "workingDirectory": "${workspaceFolder}\\Temp",
+    "proPath": [
+        "c:\\temp",
+        "${workspaceFolder}"
+    ],
+    "proPathMode": "overwrite", // append, prepend
+    "dlcPath": "c:\\dlc117",
+    "parameterFiles": [
+        "D:\\totvs\\Protege\\PF\\totvs-unik.pf",
+        "D:\\totvs\\Protege\\PF\\totvs.p",
+        "D:\\totvs\\Protege\\PF\\TOTVS.ini"
+    ],
+    "dbDictionary": [
+        "mgcad",
+        "mgmov",
+        "ems2pro",
+        "ems506",
+        "emsfnd"
+    ],
+    "deployment": [
+        {
+            "taskType": "current.r-code", // current.source
+            "path": "c:\\temp",
+            "postAction": [
+                {
+                    "actionType": "URL",
+                    "command": "http://localhost:8080/postAction"
+                }
+            ]
+        }
+    ],
+    "format": {
+        "trim": "right" // none
+    },
+    "settings": {}
+}
